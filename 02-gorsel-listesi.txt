@@ -1,0 +1,79 @@
+# NİF Bilişim – Görsel URL listesi
+# Ben (Claude) bulut ortamından siteye bağlanamadığım için görselleri indiremedim.
+# Bu klasördeki indir-gorseller.sh betiğini kendi bilgisayarında çalıştır, images/ klasörü oluşur.
+
+## Logo
+http://www.nifbilisim.com/wp-content/uploads/2017/03/logo21.png
+http://www.nifbilisim.com/wp-content/uploads/2017/03/logo-footer2.png
+
+## Anasayfa
+http://www.nifbilisim.com/wp-content/uploads/2017/04/video-bg.mp4
+http://www.nifbilisim.com/wp-content/uploads/2017/04/guvenlik-sistemleri-180x180.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/web-dizayn-180x180.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/Civalı-Termometre-180x180.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/03/takip-sistemi-180x180.png
+
+## Sayfa hero / içerik görselleri
+http://www.nifbilisim.com/wp-content/uploads/2013/08/header.jpg
+http://www.nifbilisim.com/wp-content/uploads/2013/08/hakkimizda-res.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/guvenlik-sistemleri2.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/network.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/03/otopark.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/otopark-2.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/otoparksm.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/otopark-bariyerleri2sm.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/road-blocker-sm.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/03/biocam-300-yuz-tanima-sistemi-bigger.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/personel-devam-kontrol-sistemi.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/yüz-tanima.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/parmak-izi.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/kartli-gecis.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/bekçi-tur-takip-sistemism-2.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/sistem-odası.jpg
+http://www.nifbilisim.com/wp-content/uploads/2017/04/web-dizayn.jpg
+
+## Marka / bayilik logoları
+http://www.nifbilisim.com/wp-content/uploads/2013/08/acer-94.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/adobe-91.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/arcserve-2232.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/asus-90.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/autodesk-92.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/bera-93.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/canon-95.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/casio-96.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/dell-99.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/d-link-100.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/exper-102.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/epson-101.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/hp-103.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/hpe-104.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/huawei-105.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/ibm-106.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/inform-107.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/intel-108.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/kaspersky-109.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/lacie-110.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/logitech-113.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/lenovo-112.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/maxell-114.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/mobile-iron-116.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/microsoft-115.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/msi-117.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/oki-118.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/neutron.jpg
+http://www.nifbilisim.com/wp-content/uploads/2013/08/perkotek-1.jpg
+http://www.nifbilisim.com/wp-content/uploads/2013/08/sandisk-120.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/samsung-119.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/softlayer-2231.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/seagate-121.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/sony-122.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/targus-123.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/tplink-125.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/trust-126.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/tsens.jpg
+http://www.nifbilisim.com/wp-content/uploads/2013/08/viewsonic-129.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/unify-127.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/xerox-132.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/wacom1-131.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/yealink-134.png
+http://www.nifbilisim.com/wp-content/uploads/2013/08/zyxel-135-135.png

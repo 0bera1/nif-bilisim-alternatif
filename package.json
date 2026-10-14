@@ -1,0 +1,19 @@
+{
+  "name": "nif-bilisim-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NİF Bilişim kurumsal web sitesi (statik)",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
