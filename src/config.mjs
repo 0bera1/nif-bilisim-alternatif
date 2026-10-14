@@ -4,7 +4,7 @@
 export const SITE = {
   name: 'NİF Bilişim',
   legalName: 'NİF Bilişim',
-  url: 'https://www.nifbilisim.com', // canonical alan adı (https + www)
+  url: process.env.SITE_URL || 'https://www.nifbilisim.com', // canonical alan adı (https + www)
   locale: 'tr_TR',
   slogan: 'Doğru çözümler, mutlu müşteriler',
   description:
