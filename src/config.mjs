@@ -53,5 +53,5 @@ export const SITE = {
   },
 
   // Footer imzası (zorunlu). İsterseniz href'e portfolyo adresinizi yazın; boşsa düz metin olarak görünür.
-  credit: { text: 'Design by Bera', href: '' },
+  credit: { text: 'Design by Bera', href: 'https://www.beraekimci.com.tr' },
 };
