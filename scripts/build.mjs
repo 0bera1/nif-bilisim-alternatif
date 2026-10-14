@@ -187,6 +187,24 @@ Header always set X-Frame-Options "SAMEORIGIN"
 `
 );
 
+/* 7) Cloudflare Pages başlıkları (_headers) + GitHub Pages özel alan adı (CNAME) */
+await write(
+  '_headers',
+  `/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/favicon.ico
+  Cache-Control: public, max-age=86400
+`
+);
+if (process.env.PAGES_CNAME) await write('CNAME', process.env.PAGES_CNAME.trim() + '\n');
+await write('.nojekyll', '');
+
 /* Yardımcı: PNG'lerden ICO üretir (PNG gömülü ICO, tüm modern tarayıcılar destekler) */
 function ico(pngs, sizes) {
   const header = Buffer.alloc(6);

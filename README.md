@@ -142,3 +142,20 @@ Build, aynı tabloyu iki formatta üretir: **`dist/.htaccess`** (Apache/LiteSpee
 11. **Alan adı:** canonical adres `https://www.nifbilisim.com` olarak ayarlandı (eski site http idi). Hosting'de SSL sertifikası aktif olmalı.
 12. Eski sitedeki slider metinlerinden "Yemekhane takip ve turnike sistemi" ile "araç altı arama aynası satışı" (SEO anahtar kelimesi) için ayrıntılı içerik olmadığından ayrı bölüm açılmadı.
 13. "Design by Bera" şu an düz metin; bağlantı istenirse `src/config.mjs` → `credit.href` alanına adres yazılabilir.
+
+## Sunucusuz yayın (Cloudflare Pages + GitHub Pages)
+
+Site tamamen statiktir; sunucu gerekmez. Build çıktısı `dist/` (içinde `_redirects`, `_headers`, `404.html`).
+
+### Cloudflare Pages (ana hedef)
+1. Cloudflare paneli → **Workers & Pages → Create → Pages → Connect to Git** → bu repoyu seçin.
+2. Build command: `npm run build` · Output directory: `dist` · Ortam değişkenleri: `NODE_VERSION=20`, `WEB3FORMS_KEY=<anahtar>`.
+3. İlk yayından sonra **Custom domains → Set up a custom domain** ile `www.nifbilisim.com` ekleyin.
+4. Alan adı Cloudflare'de değilse (DNS başka yerde): alan adının nameserver'larını Cloudflare'e çevirin ya da DNS'te `www` için `CNAME → <proje>.pages.dev` kaydı açın. Kök alan (`nifbilisim.com`) için Cloudflare DNS gerekir; Redirect Rule ile `nifbilisim.com/*` → `https://www.nifbilisim.com/$1` (301) yönlendirin.
+5. `_redirects` (eski WordPress adresleri → 301) ve `_headers` Cloudflare'de otomatik uygulanır.
+
+### GitHub Pages (ikincil)
+- `.github/workflows/pages.yml`, `main`'e her push'ta build alıp yayınlar. Repo → **Settings → Pages → Source: GitHub Actions**.
+- Özel alan adı için repo değişkeni `PAGES_CNAME=www.nifbilisim.com` tanımlayın (build `CNAME` dosyasını üretir) ve DNS'te `www` → `0bera1.github.io` CNAME açın.
+- ⚠️ GitHub Pages `_redirects`/`_headers` dosyalarını **uygulamaz** (eski URL 301'leri ve başlıklar yalnızca Cloudflare'de çalışır). Alan adı yoksa site `/nif-bilisim-alternatif/` alt yolunda açılır ve mutlak (`/...`) bağlantılar bozulur; bu yüzden GitHub Pages yalnızca özel alan adıyla kullanılmalıdır.
+- Aynı alan adı aynı anda hem Cloudflare hem GitHub Pages'e bağlanamaz; canlı DNS tek hedefi göstermelidir.
