@@ -150,8 +150,8 @@ Site tamamen statiktir; sunucu gerekmez. Build çıktısı `dist/` (içinde `_re
 ### Cloudflare Pages (ana hedef)
 1. Cloudflare paneli → **Workers & Pages → Create → Pages → Connect to Git** → bu repoyu seçin.
 2. Build command: `npm run build` · Output directory: `dist` · Ortam değişkenleri: `NODE_VERSION=20`, `WEB3FORMS_KEY=<anahtar>`.
-3. İlk yayından sonra **Custom domains → Set up a custom domain** ile `www.nifbilisim.com` ekleyin.
-4. Alan adı Cloudflare'de değilse (DNS başka yerde): alan adının nameserver'larını Cloudflare'e çevirin ya da DNS'te `www` için `CNAME → <proje>.pages.dev` kaydı açın. Kök alan (`nifbilisim.com`) için Cloudflare DNS gerekir; Redirect Rule ile `nifbilisim.com/*` → `https://www.nifbilisim.com/$1` (301) yönlendirin.
+3. Alan adınız kendi Cloudflare hesabınızda ve proje bir alt alan adında yayınlanacaksa (örn. `nif.alanadiniz.com`): Pages projesi → **Custom domains → Set up a custom domain** → alt alan adını yazın. DNS Cloudflare'de olduğu için `CNAME nif → <proje>.pages.dev` (Proxied) kaydı otomatik eklenir; eklenmezse DNS panelinden elle ekleyin.
+4. Canonical, sitemap ve robots doğru adresi göstersin diye Pages ortam değişkenine `SITE_URL=https://nif.alanadiniz.com` ekleyin ve yeniden deploy edin.
 5. `_redirects` (eski WordPress adresleri → 301) ve `_headers` Cloudflare'de otomatik uygulanır.
 
 ### GitHub Pages (ikincil)
