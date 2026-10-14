@@ -32,7 +32,6 @@ npm run dev        # derler (dist/) ve http://localhost:4321 adresinde açar
 
 ```
 nif-bilisim-yeni-site/
-├── 00-OKU-BENI.md, 01-icerik.md, 02-gorsel-listesi.txt, 03-prompt.md, indir-gorseller.sh   (kaynak paket)
 ├── images/                    # eski siteden indirilen orijinal görseller (build girdisi)
 ├── package.json
 ├── scripts/
